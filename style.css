@@ -1,0 +1,22 @@
+#name {
+  font-family: "Dancing Script", cursive;
+  font-style: normal;
+  color: #dba88c;
+  width: 800%;
+}
+
+#nav-list {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #dba88c;
+  font-size: 20px;
+  margin-left: 600px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #dba88c;
+}
