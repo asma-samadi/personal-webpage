@@ -221,3 +221,40 @@ header {
     line-height: 2;
   }
 }
+
+#fun-fact {
+  min-height: 100vh;
+  padding: 40px 80px;
+  background-color: #f1efe7;
+  font-size: 2.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#fun-fact h2 {
+  font-size: 3rem;
+  color: #dba78b;
+}
+
+#fun-fact p {
+  font-size: 2rem;
+  color: #726357;
+}
+
+@media (max-width: 768px) {
+  #fun-fact {
+    text-align: center;
+    align-items: center;
+  }
+
+  #fun-fact h2 {
+    font-size: 2.3rem;
+  }
+
+  #fun-fact p {
+    font-size: 1.5rem;
+  }
+}
