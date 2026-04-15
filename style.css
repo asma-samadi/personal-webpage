@@ -171,3 +171,47 @@ header {
     text-align: center;
   }
 }
+
+#lists {
+  min-height: 100vh;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #d6bbb6;
+}
+
+.list-section {
+  font-size: 2.3rem;
+  color: #b49d62;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.list-item {
+  font-size: 1.5rem;
+  color: #7e6365;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  #lists {
+    text-align: center;
+  }
+
+  .list-section {
+    font-size: 2rem;
+    margin: 15px 0;
+  }
+
+  .list-item {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+}
+
+#lists ul,
+#lists ol {
+  max-width: 600px;
+  margin: 0 auto;
+}
