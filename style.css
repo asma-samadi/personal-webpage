@@ -447,6 +447,7 @@ footer {
 
 footer h2 {
   font-family: "Dancing Script", cursive;
+  font-style: normal;
 }
 
 @media (max-width: 768px) {
