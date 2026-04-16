@@ -287,6 +287,17 @@ header {
   box-shadow: 0px 4px 8px #3d3a3a;
 }
 
+#favorite-website a {
+  text-decoration: none;
+  color: #f39000;
+  transition: 0.3s;
+}
+
+#favorite-website a:hover {
+  color: #f1efe7;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   #favorite-website {
     flex-direction: column;
