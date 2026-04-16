@@ -302,3 +302,62 @@ header {
     max-width: 100%;
   }
 }
+
+#schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 60px;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  gap: 20px;
+  background-color: #f1efe7;
+}
+
+.schedule-table {
+  width: 100%;
+  max-width: 700px;
+  overflow-x: auto;
+}
+
+.schedule-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.schedule-table th {
+  background-color: #dba78b;
+  color: #ffffff;
+  padding: 12px;
+  text-align: left;
+}
+
+.schedule-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  color: #726357;
+}
+
+.schedule-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+#schedule h2 {
+  font-size: 2.5rem;
+  color: #dba78b;
+}
+
+@media (max-width: 768px) {
+  #schedule {
+    padding: 30px 20px;
+    font-size: 1rem;
+  }
+
+  .schedule-table table {
+    font-size: 0.9rem;
+  }
+}
