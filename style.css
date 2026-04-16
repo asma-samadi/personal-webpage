@@ -423,3 +423,22 @@ header {
     margin-top: 50px;
   }
 }
+
+footer {
+  background-color: #f1efe7;
+  color: #726357;
+  text-align: center;
+  padding: 60px;
+  line-height: 5rem;
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 60px;
+    line-height: 3rem;
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+}
